@@ -1,6 +1,6 @@
 ---
-title: Jérémy DELVINQUIER | DevOps & Kubernetes Engineer
-description: CV Jérémy DELVINQUIER
+title: "Jérémy DELVINQUIER | DevOps & Kubernetes Engineer"
+description: "CV Jérémy DELVINQUIER"
 lang: en
 ---
 
