@@ -3,29 +3,31 @@ title: "Jérémy DELVINQUIER | DevOps & Kubernetes Engineer"
 description: "CV Jérémy DELVINQUIER"
 lang: en
 ---
+<link rel="stylesheet" href="style.css">
 
-[Download PDF version](https://jdelvinquier.github.io/my-cv/index.pdf)
+<span class="no-print">[📄 Download the PDF version](https://jdelvinquier.github.io/my-cv/index.pdf)</span>
 
 # Jérémy DELVINQUIER
 > **DevOps / Kubernetes Engineer**
+
 ---
 ### 🛠️ Technologies
-- **Orchestration & Containerisation:** Kubernetes (BareMetal, multi-cluster), Docker, Helm
-- **CI/CD & Automation:** Ansible (custom roles & action modules), GitLab CI, Jenkins, Terraform, Ansible Tower
+- **Orchestration & Containerisation :** Kubernetes (BareMetal, multi-cluster), Docker, Helm
+- **CI/CD & Automation :** Ansible (custom roles & action modules), GitLab CI, Jenkins, Terraform, Ansible Tower
 - **Langages & Tools :** Python, Golang, Java, Bash, SQL (Oracle, PostgreSQL), Git
 
 ### 💼 Experiences
-####  DevOps Consultant @ Capgemini (Client "Orange") | 2024 - Présent
+####  DevOps Consultant @ Capgemini (Client "Orange") | 2024 - Now
 *Management of BareMetal multi-tenant Container-as-a-Service (CaaS) clusters*
-- **Infrastructure Expansion:** Improved the deployment of K8s clusters on new datacenters using Ansible
-- Developed **Ansible roles and playbooks** dedicated to the infrastructure
-- **API Development:** Enhanced the internal REST API (Python/Go) to streamline tenant self-service capabilities
+- **Infrastructure Expansion :** Improved the deployment of K8s clusters on new datacenters using Ansible
+- Developed **Ansible roles, action modules and playbooks** dedicated to the infrastructure
+- **API Development :** Enhanced the internal REST API (Python/Go) to streamline tenant self-service capabilities
 - Developed a custom migration tool for **CEPH StorageClass** (managing ~1000 PVCs) ensuring multi-tenancy isolation
 
 #### DevOps Consultant @ Capgemini - Client "Orano"  | 2022 - 2024
 *Automation of L3 Support & Infrastructure Management*
-- **Ansible Strategy:** Designed and maintained complex Ansible Tower workflows to automate repetitive production tasks
-- **Standardization:** Created a library of reusable Ansible roles, reducing environment drift.
+- Designed and maintained complex **Ansible Tower workflows** to automate repetitive production tasks
+- **Standardization & reusability :** Created a library of reusable Ansible roles, reducing environment drift
 
 #### Backend Software Developer @ Capgemini - Client "Agence National de Traitement Automatisé des Infractions" (ANTAI) | 2019 - 2022
 *New features for different applications which manage lifecycle of an "infringement case"*

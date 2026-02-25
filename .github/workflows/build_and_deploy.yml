@@ -1,13 +1,13 @@
+# Automate the Markdown to PDF conversion & deployment
+# Unused at the moment for billing issues
 name: Build CV and deploy pages
 on:
   push:
     branches: ["main"]
-
 permissions:
   contents: write
   pages: write
   id-token: write
-
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
