@@ -1,6 +1,6 @@
 ---
 title: Jérémy DELVINQUIER | DevOps & Kubernetes Engineer
-description: CV de Jérémy DELVINQUIER .
+description: CV de Jérémy DELVINQUIER
 lang: en
 ---
 
