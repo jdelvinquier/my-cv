@@ -1,0 +1,78 @@
+# Automate the Markdown to PDF conversion & deployment
+name: Build PDF & Deploy to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # Generate PDFs
+
+      - name: Install Pandoc & WeasyPrint
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y pandoc weasyprint fonts-noto-color-emoji
+
+      - name: Generate CV PDFs
+        run: |
+          mkdir -p docs/pdf
+          cd docs
+          pandoc index.md \
+            --pdf-engine=weasyprint \
+            --css style.css \
+            -V title="" \
+            -o pdf/cv-en.pdf
+          pandoc index-fr.md \
+            --pdf-engine=weasyprint \
+            --css style.css \
+            -V title="" \
+            -o pdf/cv-fr.pdf
+
+      - name: Upload PDFs as artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: cv-pdfs
+          path: docs/pdf/
+
+      # Deploy GitHub Pages
+
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.2'
+
+      - name: Install Jekyll dependencies
+        run: bundle install
+        working-directory: docs
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+
+      - name: Build with Jekyll
+        run: bundle exec jekyll build --source . --destination ../_site
+        working-directory: docs
+        env:
+          JEKYLL_ENV: production
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
