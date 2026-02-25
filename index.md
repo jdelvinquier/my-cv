@@ -4,9 +4,10 @@ description: "CV Jérémy DELVINQUIER"
 lang: en
 ---
 
+[Download PDF version](https://jdelvinquier.github.io/my-cv/index.pdf)
+
 # Jérémy DELVINQUIER
 > **DevOps / Kubernetes Engineer**
-
 ---
 ### 🛠️ Technologies
 - **Orchestration & Containerisation:** Kubernetes (BareMetal, multi-cluster), Docker, Helm

@@ -1,0 +1,29 @@
+name: Build CV and deploy pages
+on:
+  push:
+    branches: ["main"]
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Converting Markdown to PDF
+        uses: baileyjm02/markdown-to-pdf@v1
+        with:
+          input_path: index.md
+          output_dir: ./
+          build_html: true # optional
+      - name: Uploading artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: '.'
+      - name: Deploying to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
