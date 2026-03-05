@@ -1,5 +1,5 @@
 # Automate the Markdown to PDF conversion & deployment
-name: Build CV & Deploy to GitHub Pages
+name: Build PDF & Deploy to GitHub Pages
 
 on:
   push:
