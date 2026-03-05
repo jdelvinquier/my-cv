@@ -5,19 +5,20 @@ lang: fr
 ---
 <link rel="stylesheet" href="style.css">
 
-<span class="no-print">[📄 Download the PDF version](https://jdelvinquier.github.io/my-cv/index-fr.pdf)</span>
+<span class="no-print">[📄 Télécharger la version PDF](https://jdelvinquier.github.io/my-cv/index-fr.pdf)</span>
+
 <span class="no-print">> 🌐 [English](index.md) | **Français**</span>
 
 # Jérémy DELVINQUIER
 > **Ingénieur DevOps / Kubernetes**
 
-## Technologies
+## 🛠️ Technologies
 - **Orchestration & Conteneurisation :** Kubernetes (Bare Metal, multi-cluster), Docker, Helm
 - **CI/CD & Automatisation :** Ansible (roles & modules d'action personnalisés), GitLab CI, Jenkins, Terraform, ArgoCD
 - **Sécurité & Gouvernance :** RBAC, Open Policy Agent (OPA), Vault
 - **Langages & Outils :** Python, Golang, Java, Bash, SQL (Oracle, PostgreSQL), Git
 
-## Expériences
+## 💼 Expériences
 
 ### Consultant DevOps @ Capgemini - Client "Orange" | 2024 - Présent
 - **Gestion de clusters CaaS (Container-as-a-Service) multi-tenants sur serveurs Bare Metal (~350 nœuds)**
@@ -38,8 +39,14 @@ lang: fr
 - **CI/CD :** Amélioration de la fiabilité des pipelines Jenkins en collaboration avec les équipes Ops
 - **Méthodologie :** Participation aux PI Planning (SAFe) au sein d'un train de plus de 80 ETP
 
-## Certifications [cite: 27]
+## 🎓 Certifications
 - **CKA** - Certified Kubernetes Administrator
 - **HashiCorp Certified :** Terraform Associate
 - **Microsoft Certified :** Azure Fundamentals (AZ-900)
 - **SAFe® 5 Practitioner**
+
+### 🌐 Contact
+
+[![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:jeremy.delvinquier@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jérémy-delvinquier-962854223)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/jdelvinquier)

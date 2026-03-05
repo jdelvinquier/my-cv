@@ -1,5 +1,5 @@
 # Automate the Markdown to PDF conversion & deployment
-# Unused at the moment for billing issues
+# TODO: Fix Github billing errors. Unused for the moment.
 name: Build CV and deploy pages
 on:
   push:
