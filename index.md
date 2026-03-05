@@ -7,7 +7,7 @@ lang: en
 
 <span class="no-print">[📄 Download the PDF version](https://jdelvinquier.github.io/my-cv/index.pdf)</span>
 
-<span class="no-print">> 🌐 **English** | [French](index-fr.md)</span>
+<span class="no-print"> 🌐 **English** | [French](index-fr.md)</span>
 
 # Jérémy DELVINQUIER
 > **DevOps / Kubernetes Engineer**
