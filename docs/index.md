@@ -45,9 +45,9 @@ lang: en
 
 ## 🎓 Education
 
-### Master’s Degree in Engineering: Information Technology (Major in Information Systems)
+**Master’s Degree in Engineering: Information Technology (Major in Information Systems)**
 
-*École Supérieure d'Ingénieurs de Rennes (ESIR) | 2017*
+*École Supérieure d'Ingénieurs de Rennes (ESIR), 2017*
 
 </div>
 <div class="sidebar" markdown="1">
