@@ -3,3 +3,7 @@ theme: null
 include:
   - index.md
   - index-fr.md
+markdown: kramdown
+kramdown:
+  parse_block_html: true
+  commonmark: false

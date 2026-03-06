@@ -1,26 +1,170 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --accent:     #2b6cb0;
+  --accent-dark:#1a4a80;
+  --text:       #1a202c;
+  --muted:      #4a5568;
+  --border:     #cbd5e0;
+  --bg-sidebar: #f7fafc;
+  --font:       'Segoe UI', Arial, sans-serif;
+}
+
+body {
+  font-family: var(--font);
+  font-size: 10pt;
+  color: var(--text);
+  line-height: 1.5;
+  background: #fff;
+}
+
+.no-print {
+  display: block;
+  text-align: center;
+  padding: 8px 0;
+  font-size: 0.9em;
+  color: var(--muted);
+}
+
+.container {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 24px 28px;
+  /* clearfix */
+  overflow: hidden;
+}
+
+.main-column {
+  float: left;
+  width: 62%;
+  padding-right: 24px;
+}
+
+.sidebar {
+  float: right;
+  width: 35%;
+  background: var(--bg-sidebar);
+  border-left: 3px solid var(--accent);
+  padding: 16px 14px;
+  border-radius: 4px;
+}
+
+h1 {
+  font-size: 22pt;
+  font-weight: 700;
+  color: var(--accent-dark);
+  margin-bottom: 2px;
+}
+
+h2 {
+  font-size: 12pt;
+  font-weight: 600;
+  color: var(--accent);
+  margin-top: 18px;
+  margin-bottom: 6px;
+  padding-bottom: 3px;
+  border-bottom: 1px solid var(--border);
+}
+
+.main-column > h2:first-of-type {
+  font-size: 11pt;
+  color: var(--muted);
+  font-weight: 500;
+  border-bottom: none;
+  margin-top: 2px;
+}
+
+h3 {
+  font-size: 10pt;
+  font-weight: 700;
+  color: var(--accent);
+  margin-top: 14px;
+  margin-bottom: 2px;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+h3 + p > em {
+  font-size: 9pt;
+  color: var(--muted);
+  display: block;
+  margin-bottom: 4px;
+}
+
+p {
+  margin-bottom: 4px;
+}
+
+ul {
+  margin: 4px 0 8px 16px;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 3px;
+}
+
+strong {
+  color: var(--text);
+}
+
+.sidebar a img {
+  height: 22px;
+  margin: 2px 3px 2px 0;
+  vertical-align: middle;
+}
+
+.pdf-only {
+  display: none;
+}
+
+@page {
+  size: A4;
+  margin: 12mm 14mm 12mm 14mm;
+}
+
 @media print {
   .no-print {
     display: none !important;
   }
-}
-body {
-    font-family: "Inter", sans-serif;
-    max-width: 800px;
-    margin: 40px auto;
-    color: #222;
-}
-h1, h2, h3 {
-    border-bottom: 1px solid #ddd;
-    padding-bottom: .2em;
-    margin-top: 1.4em;
-}
-a {
-    color: #0366d6;
+
+  .pdf-only {
+    display: block !important;
+    font-size: 9pt;
+    line-height: 1.8;
+    color: var(--text);
+  }
+
+  .pdf-only a {
+    color: var(--accent);
     text-decoration: none;
-}
-a:hover {
-    text-decoration: underline;
-}
-section {
-    margin-bottom: 1.6em;
+  }
+
+  body {
+    font-size: 9.5pt;
+  }
+
+  .container {
+    padding: 0;
+    max-width: 100%;
+  }
+
+  h1  { font-size: 20pt; }
+  h2  { font-size: 11pt; }
+  h3  { font-size: 9.5pt; }
+
+  h3, h3 + p, h3 + p + ul {
+    page-break-inside: avoid;
+  }
+
+  .sidebar {
+    background: var(--bg-sidebar) !important;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
 }

@@ -8,15 +8,11 @@ lang: fr
 
 <span class="no-print"> 🌐 [English](index.html) | **Français**</span>
 
-# Jérémy DELVINQUIER
-> **Ingénieur DevOps / Kubernetes**
+<div class="container" markdown="1">
+<div class="main-column" markdown="1">
 
----
-## 🛠️ Technologies
-- **Orchestration & Conteneurisation :** Kubernetes (Bare Metal, multi-cluster), Docker, Helm
-- **CI/CD & Automatisation :** Ansible (roles & modules d'action personnalisés), GitLab CI, Jenkins, Terraform, ArgoCD
-- **Sécurité & Gouvernance :** RBAC, Open Policy Agent (OPA), Vault
-- **Langages & Outils :** Python, Golang, Java, Bash, SQL (Oracle, PostgreSQL), Git
+# Jérémy DELVINQUIER
+## **Ingénieur DevOps / Kubernetes**
 
 ## 💼 Expériences
 
@@ -45,14 +41,38 @@ lang: fr
 - **CI/CD :** Amélioration de la fiabilité des pipelines Jenkins en collaboration avec les équipes Ops
 - **Méthodologie :** Participation aux PI Planning (SAFe) au sein d'un train de plus de 80 ETP
 
+## 🎓 Education
+
+### Diplôme d'Ingénieur en Technologie de l'Information en spéc. Systèmes d'Information
+
+*École Supérieure d'Ingénieurs de Rennes (ESIR) | 2017*
+
+</div>
+<div class="sidebar" markdown="1">
+
+## 🌐 Contact
+
+<span class="no-print">[![Email](assets/badges/email.svg)](mailto:jeremy.delvinquier@gmail.com)
+[![LinkedIn](assets/badges/linkedin.svg)](https://www.linkedin.com/in/jérémy-delvinquier-962854223)
+[![GitHub](assets/badges/github.svg)](https://github.com/jdelvinquier)</span>
+
+<div class="pdf-only">
+  <p>📧: jeremy.delvinquier@gmail.com</p>
+  <p>💼: <a href="https://www.linkedin.com/in/jérémy-delvinquier-962854223">linkedin.com/in/jérémy-delvinquier</a></p>
+  <p>🐙: <a href="https://github.com/jdelvinquier">github.com/jdelvinquier</a></p>
+</div>
+
+## 🛠️ Technologies
+- **Orchestration & Conteneurisation :** Kubernetes (Bare Metal, multi-cluster), Docker, Helm
+- **CI/CD & Automatisation :** Ansible (roles & modules d'action personnalisés), GitLab CI, Jenkins, Terraform, ArgoCD
+- **Sécurité & Gouvernance :** RBAC, Open Policy Agent (OPA), Vault
+- **Langages & Outils :** Python, Golang, Java, Bash, SQL (Oracle, PostgreSQL), Git
+
 ## 🎓 Certifications
 - **CKA** - Certified Kubernetes Administrator
 - **HashiCorp Certified :** Terraform Associate
 - **Microsoft Certified :** Azure Fundamentals (AZ-900)
 - **SAFe® 5 Practitioner**
 
-### 🌐 Contact
-
-[![Email](assets/badges/email.svg)](mailto:jeremy.delvinquier@gmail.com)
-[![LinkedIn](assets/badges/linkedin.svg)](https://www.linkedin.com/in/jérémy-delvinquier-962854223)
-[![GitHub](assets/badges/github.svg)](https://github.com/jdelvinquier)
+</div>
+</div>

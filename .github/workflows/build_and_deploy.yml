@@ -34,12 +34,12 @@ jobs:
           pandoc index.md \
             --pdf-engine=weasyprint \
             --css style.css \
-            -V title="" \
+            --metadata title="" \
             -o pdf/cv-en.pdf
           pandoc index-fr.md \
             --pdf-engine=weasyprint \
             --css style.css \
-            -V title="" \
+            --metadata title="" \
             -o pdf/cv-fr.pdf
 
       - name: Upload PDFs as artifacts

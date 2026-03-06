@@ -8,15 +8,11 @@ lang: en
 
 <span class="no-print"> 🌐 **English** | [French](index-fr.html)</span>
 
-# Jérémy DELVINQUIER
-> **DevOps / Kubernetes Engineer**
+<div class="container" markdown="1">
+<div class="main-column" markdown="1">
 
----
-## 🛠️ Technologies
-- **Orchestration & Containerisation:** Kubernetes (BareMetal, multi-cluster), Docker, Helm
-- **CI/CD & Automation:** Ansible (custom roles & action modules), GitLab CI, Jenkins, Terraform, Ansible Tower, ArgoCD
-- **Security & Policy:** RBAC, Open Policy Agent (OPA), Vault
-- **Langages & Tools:** Python, Golang, Java, Bash, SQL (Oracle, PostgreSQL), Git
+# Jérémy DELVINQUIER
+## **DevOps / Kubernetes Engineer**
 
 ## 💼 Experiences
 
@@ -44,8 +40,35 @@ lang: en
 - Developed and maintained **Java/Spring microservices** for high-traffic national applications
 - Engineered **Python scripts** for automated data recovery and consistency checks on production databases
 - Contributed to the **containerization** of legacy applications (Docker)
-- Collaborated with Ops teams to improve CI/CD pipeline reliability (Jenkins)
+- Collaborated with Ops teams to improve **CI/CD pipeline reliability** (Jenkins)
 - Participated in Program Increment (PI) Planning, aligning backend deliverables with cross-team dependencies (80+ contributors)
+
+## 🎓 Education
+
+### Master’s Degree in Engineering: Information Technology (Major in Information Systems)
+
+*École Supérieure d'Ingénieurs de Rennes (ESIR) | 2017*
+
+</div>
+<div class="sidebar" markdown="1">
+
+## 🌐 Contact
+
+<span class="no-print">[![Email](assets/badges/email.svg)](mailto:jeremy.delvinquier@gmail.com)
+[![LinkedIn](assets/badges/linkedin.svg)](https://www.linkedin.com/in/jérémy-delvinquier-962854223)
+[![GitHub](assets/badges/github.svg)](https://github.com/jdelvinquier)</span>
+
+<div class="pdf-only">
+  <p>📧: jeremy.delvinquier@gmail.com</p>
+  <p>💼: <a href="https://www.linkedin.com/in/jérémy-delvinquier-962854223">linkedin.com/in/jérémy-delvinquier</a></p>
+  <p>🐙: <a href="https://github.com/jdelvinquier">github.com/jdelvinquier</a></p>
+</div>
+
+## 🛠️ Technologies
+- **Orchestration & Containerisation:** Kubernetes (BareMetal, multi-cluster), Docker, Helm
+- **CI/CD & Automation:** Ansible (custom roles & action modules), GitLab CI, Jenkins, Terraform, Ansible Tower, ArgoCD
+- **Security & Policy:** RBAC, Open Policy Agent (OPA), Vault
+- **Langages & Tools:** Python, Golang, Java, Bash, SQL (Oracle, PostgreSQL), Git
 
 ## 🎓 Certifications
 
@@ -54,8 +77,5 @@ lang: en
 - **Microsoft** Certified: Azure Fundamentals (AZ-900)
 - **SAFe® 5** Practitioner
 
-## 🌐 Contact
-
-[![Email](assets/badges/email.svg)](mailto:jeremy.delvinquier@gmail.com)
-[![LinkedIn](assets/badges/linkedin.svg)](https://www.linkedin.com/in/jérémy-delvinquier-962854223)
-[![GitHub](assets/badges/github.svg)](https://github.com/jdelvinquier)
+</div>
+</div>
