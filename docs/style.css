@@ -80,10 +80,10 @@ h2 {
 }
 
 h3 {
-  font-size: 10pt;
-  font-weight: 700;
+  font-size: 9pt;
+  font-weight: 600;
   color: var(--accent);
-  margin-top: 14px;
+  margin-top: 12px;
   margin-bottom: 2px;
   text-transform: uppercase;
   letter-spacing: 0.03em;
@@ -98,6 +98,15 @@ h3 + p > em {
 
 p {
   margin-bottom: 4px;
+}
+
+p strong {
+  display: block;
+  line-height: 1.5;
+  margin-top: 10px;
+  margin-bottom: 12px;
+  font-weight: 500;
+  color: var(--accent-dark);
 }
 
 ul {

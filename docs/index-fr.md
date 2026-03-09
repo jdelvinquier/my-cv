@@ -77,7 +77,7 @@ lang: fr
 - **Microsoft Certified :** Azure Fundamentals (AZ-900)
 - **SAFe® 5 Practitioner**
 
-## Activités & soft skills
+## 🚀 Activités & soft skills
 
 - **Échecs** (1100 ELO, amateur éclairé) : reconnaissance de patterns et prise de décision sous pression
 - **Lecture** (polars & science-fiction) : goût pour les enquêtes complexes et les architectures spéculatives
