@@ -77,5 +77,11 @@ lang: en
 - **Microsoft** Certified: Azure Fundamentals (AZ-900)
 - **SAFe® 5** Practitioner
 
+## Personal interests & soft skills
+
+- **Chess** (1100 ELO, Intermediate player): Pattern recognition and decision-making under pressure.
+- **Reading** (Detective & Sci-Fi novels): Complex investigations and speculative architectures.
+- **Strategy games & Escape rooms** (~15 rooms): Resource optimization and team collaboration.
+
 </div>
 </div>
