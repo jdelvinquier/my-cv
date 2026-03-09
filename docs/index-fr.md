@@ -15,6 +15,7 @@ lang: fr
 ## **Ingénieur DevOps / Kubernetes**
 
 **Ayant une solide expérience en développement backend, je me consacre à l'architecture et à l'automatisation de plateformes à grande échelle. Mon expertise se concentre sur la scalabilité, la fiabilité et la maintenabilité des infrastructures au sein d'environnements de production critiques.**
+
 **Ma double compétence me permet de lier ingénierie logicielle robuste et orchestration cloud-native complexe.**
 
 ## 💼 Expériences

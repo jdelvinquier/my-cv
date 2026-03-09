@@ -14,12 +14,14 @@ lang: en
 # Jérémy DELVINQUIER
 ## **DevOps / Kubernetes Engineer**
 
-**With a solid backend development background, I am dedicated to architecting and automating large-scale platforms. Focusing on infrastructure scalability, reliability, and maintainability within high-traffic production environments.**
+**With a solid backend development background, I am dedicated to architecting and automating large-scale platforms.**
+**Focusing on infrastructure scalability, reliability, and maintainability within high-traffic production environments.**
 **My dual expertise allows me to bridge the gap between robust software engineering and complex cloud-native orchestration.**
 
 ## 💼 Experiences
 
-###  DevOps Consultant @ Capgemini - Client "Orange" | 2024 - Now
+###  DevOps Consultant @ Capgemini - Client "Orange"
+**2024 - Now**
 
 *Management of BareMetal multi-tenant Container-as-a-Service (CaaS) clusters (~350 nodes)*
 
@@ -29,14 +31,16 @@ lang: en
 - Engineered a **StorageClass migration tool** managing ~1000 PVCs across multi-tenant clusters; enforced fine-grained RBAC policies, reducing tenant downtime and cutting manual operations by 70%
 - Monitored and analyzed production metrics via **Prometheus and Grafana** to ensure smooth operations
 
-### DevOps Consultant @ Capgemini - Client "Orano"  | 2022 - 2024
+### DevOps Consultant @ Capgemini - Client "Orano" 
+**2022 - 2024**
 
 *Automation of L2/L3 Support & Infrastructure management (~1200 nodes distributed amongst multiple network areas)*
 
 - Designed and maintained complex **Ansible Tower workflows** to automate repetitive production tasks
 - **Standardization & reusability :** Created a library of reusable Ansible roles, reducing environment drift
 
-### Backend Software Developer @ Capgemini - Client "ANTAI" | 2019 - 2022
+### Backend Software Developer @ Capgemini - Client "ANTAI"
+**2019 - 2022**
 
 *New features for different applications which manage lifecycle of an "infringement case"*
 
