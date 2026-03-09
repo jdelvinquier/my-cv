@@ -30,7 +30,7 @@ lang: fr
 - **Observabilité :** Monitoring des métriques de production via Prometheus et Grafana
 
 ### Consultant DevOps @ Capgemini - Client "Orano"
-**Septebmre 2022 - Février 2024**
+**Septembre 2022 - Février 2024**
 
 *Automatisation du support L2/L3 & gestion d'infrastructure (~1200 nœuds répartis sur plusieurs zones réseau)*
 
