@@ -75,7 +75,7 @@ lang: fr
 - **Langages & Outils :** Python, Golang, Java, Bash, SQL (Oracle, PostgreSQL), Git
 
 ## 🎓 Certifications
-- **CKA** - Certified Kubernetes Administrator
+- **Linux Foundation :** Certified Kubernetes Administrator (CKA)
 - **HashiCorp Certified :** Terraform Associate
 - **Microsoft Certified :** Azure Fundamentals (AZ-900)
 - **SAFe® 5 Practitioner**

@@ -78,9 +78,9 @@ lang: en
 
 ## 🎓 Certifications
 
-- **CKA** - Certified Kubernetes Administrator
-- **HashiCorp** Certified: Terraform Associate
-- **Microsoft** Certified: Azure Fundamentals (AZ-900)
+- **Linux Foundation:** Certified Kubernetes Administrator (CKA)
+- **HashiCorp Certified:** Terraform Associate
+- **Microsoft Certified:** Azure Fundamentals (AZ-900)
 - **SAFe® 5** Practitioner
 
 ## ♟️ Personal interests
