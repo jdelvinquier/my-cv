@@ -6,7 +6,7 @@ lang: fr
 
 <span class="no-print">[📄 Télécharger la version PDF](pdf/cv-fr.pdf)</span>
 
-<span class="no-print"> 🌐 [English](index.html) | **Français**</span>
+<span class="no-print"> 🌐 [English](index.html) | Français</span>
 
 <div class="container" markdown="1">
 <div class="main-column" markdown="1">
@@ -14,13 +14,14 @@ lang: fr
 # Jérémy DELVINQUIER
 ## **Ingénieur DevOps / Kubernetes**
 
-**Ayant une solide expérience en développement backend, je me consacre à l'architecture et à l'automatisation de plateformes à grande échelle. Mon expertise se concentre sur la scalabilité, la fiabilité et la maintenabilité des infrastructures au sein d'environnements de production critiques.**
-
+**Ayant une solide expérience en développement backend, je me consacre à l'architecture et à l'automatisation de plateformes à grande échelle.**
+**Mon expertise se concentre sur la scalabilité, la fiabilité et la maintenabilité des infrastructures au sein d'environnements de production critiques.**
 **Ma double compétence me permet de lier ingénierie logicielle robuste et orchestration cloud-native complexe.**
 
 ## 💼 Expériences
 
-### Consultant DevOps @ Capgemini - Client "Orange" | 2024 - Présent
+### Consultant DevOps @ Capgemini - Client "Orange"
+**Février 2024 - Présent**
 
 *Gestion de clusters CaaS (Container-as-a-Service) multi-tenants sur serveurs Bare Metal (~350 nœuds)*
 
@@ -29,14 +30,16 @@ lang: fr
 - **Migration de stockage :** Conception d'un outil réduisant de 70% des opérations manuelles en s'assurant de politiques RBAC fines (~1000 PVCs)
 - **Observabilité :** Monitoring des métriques de production via Prometheus et Grafana
 
-### Consultant DevOps @ Capgemini - Client "Orano" | 2022 - 2024
+### Consultant DevOps @ Capgemini - Client "Orano"
+**Septebmre 2022 - Février 2024**
 
 *Automatisation du support L2/L3 & gestion d'infrastructure (~1200 nœuds répartis sur plusieurs zones réseau)*
 
 - **Workflows Ansible Tower :** Automatisation des tâches de production récurrentes
 - **Standardisation :** Création d'une bibliothèque de rôles Ansible réutilisables pour limiter le "drift" d'environnement
 
-### Développeur Logiciel Backend @ Capgemini - Client "ANTAI" | 2019 - 2022
+### Développeur Logiciel Backend @ Capgemini - Client "ANTAI"
+**Août 2019 - Septembre 2022**
 
 *Développement de microservices Java/Spring pour des applications nationales à fort trafic*
 

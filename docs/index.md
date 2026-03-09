@@ -6,7 +6,7 @@ lang: en
 
 <span class="no-print">[📄 Download the PDF version](pdf/cv-en.pdf)</span>
 
-<span class="no-print"> 🌐 **English** | [French](index-fr.html)</span>
+<span class="no-print"> 🌐 English | [French](index-fr.html)</span>
 
 <div class="container" markdown="1">
 <div class="main-column" markdown="1">
@@ -21,7 +21,7 @@ lang: en
 ## 💼 Experiences
 
 ###  DevOps Consultant @ Capgemini - Client "Orange"
-**2024 - Now**
+**February 2024 - Now**
 
 *Management of BareMetal multi-tenant Container-as-a-Service (CaaS) clusters (~350 nodes)*
 
@@ -32,7 +32,7 @@ lang: en
 - Monitored and analyzed production metrics via **Prometheus and Grafana** to ensure smooth operations
 
 ### DevOps Consultant @ Capgemini - Client "Orano" 
-**2022 - 2024**
+**September 2022 - February 2024**
 
 *Automation of L2/L3 Support & Infrastructure management (~1200 nodes distributed amongst multiple network areas)*
 
@@ -40,7 +40,7 @@ lang: en
 - **Standardization & reusability :** Created a library of reusable Ansible roles, reducing environment drift
 
 ### Backend Software Developer @ Capgemini - Client "ANTAI"
-**2019 - 2022**
+**August 2019 - September 2022**
 
 *New features for different applications which manage lifecycle of an "infringement case"*
 
