@@ -14,8 +14,7 @@ lang: en
 # Jérémy DELVINQUIER
 ## **DevOps / Kubernetes Engineer**
 
-**With a solid backend development background, I am dedicated to architecting and automating large-scale platforms.**
-**Focusing on infrastructure scalability, reliability, and maintainability within high-traffic production environments.**
+**With a solid backend development background, I am dedicated to architecting and automating large-scale platforms. Focusing on infrastructure scalability, reliability, and maintainability within high-traffic production environments.**
 **My dual expertise allows me to bridge the gap between robust software engineering and complex cloud-native orchestration.**
 
 ## 💼 Experiences
