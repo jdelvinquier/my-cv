@@ -4,7 +4,7 @@ lang: en
 ---
 <link rel="stylesheet" href="style.css">
 
-<span class="no-print">[📄 Download the PDF version](pdf/cv-en.pdf)</span>
+<span class="no-print">[📄 Download the PDF version](pdf/cv-en.pdf?v={{ site.time | date: "%Y%m%d%H%M" }})</span>
 
 <span class="no-print"> 🌐 English | [French](index-fr.html)</span>
 
@@ -12,19 +12,19 @@ lang: en
 <div class="main-column" markdown="1">
 
 # Jérémy DELVINQUIER
-## **DevOps / Kubernetes Engineer**
+## **DevOps Engineer | Kubernetes | Cloud Native**
 
-**With a solid backend development background, I am dedicated to architecting and automating large-scale platforms. Focusing on infrastructure scalability, reliability, and maintainability within high-traffic production environments.**
-**My dual expertise allows me to bridge the gap between robust software engineering and complex cloud-native orchestration.**
+DevOps Engineer specializing in Kubernetes and cloud-native platforms with a strong background in backend development using Java, Python and Go. Dedicated to architecting and automating large-scale platforms. Focusing on infrastructure scalability, reliability, and maintainability within high-traffic production environments.
+My dual expertise allows me to bridge the gap between robust software engineering and complex cloud-native orchestration.
 
 ## 💼 Experiences
 
 ###  DevOps Consultant @ Capgemini - Client "Orange"
-**February 2024 - Now**
+**February 2024 - Present**
 
-*Management of BareMetal multi-tenant Container-as-a-Service (CaaS) clusters (~350 nodes)*
+*Management of Bare Metal multi-tenant Container-as-a-Service (CaaS) clusters (~350 nodes)*
 
-- **Infrastructure Expansion:** Improved the deployment of K8s clusters on new datacenters using Ansible
+- **Infrastructure Expansion:** Automated Kubernetes cluster deployments across new data centers using Ansible
 - Standardized & designed **Ansible roles, action modules and playbooks** dedicated to the infrastructure
 - **API Development:** Enhanced the internal REST API (Python/Go) to streamline tenant self-service capabilities
 - Engineered a **StorageClass migration tool** managing ~1000 PVCs across multi-tenant clusters; enforced fine-grained RBAC policies, reducing tenant downtime and cutting manual operations by 70%
@@ -41,18 +41,17 @@ lang: en
 ### Backend Software Developer @ Capgemini - Client "ANTAI"
 **August 2019 - September 2022**
 
-*New features for different applications which manage lifecycle of an "infringement case"*
+*Designed and implemented new features across multiple applications supporting the end-to-end lifecycle of infringement cases*
 
 - Developed and maintained **Java/Spring microservices** for high-traffic national applications
 - Engineered **Python scripts** for automated data recovery and consistency checks on production databases
-- Contributed to the **containerization** of legacy applications (Docker)
+- Architected the **containerization** of legacy applications (**Docker**)
 - Collaborated with Ops teams to improve **CI/CD pipeline reliability** (Jenkins)
 - Participated in Program Increment (PI) Planning, aligning backend deliverables with cross-team dependencies (80+ contributors)
 
 ## 🎓 Education
 
-**Master’s Degree in Engineering: Information Technology (Major in Information Systems)**
-
+### Master’s Degree in Engineering: Information Technology (Major in Information Systems)
 *École Supérieure d'Ingénieurs de Rennes (ESIR), 2017*
 
 </div>
@@ -71,10 +70,11 @@ lang: en
 </div>
 
 ## 🛠️ Technologies
-- **Orchestration & Containerisation:** Kubernetes (BareMetal, multi-cluster), Docker, Helm
-- **CI/CD & Automation:** Ansible (custom roles & action modules), GitLab CI, Jenkins, Terraform, Ansible Tower, ArgoCD
-- **Security & Policy:** RBAC, Open Policy Agent (OPA), Vault
-- **Langages & Tools:** Python, Golang, Java, Bash, SQL (Oracle, PostgreSQL), Git
+- **System & Platform:** Linux, Kubernetes (Bare Metal, multi-cluster), Docker, Helm
+- **CI/CD & Automation:** Infrastructure as Code (IaC), Ansible (custom roles & action modules), Terraform, GitLab CI, Jenkins, Ansible Tower, ArgoCD
+- **Security & Policy:** RBAC, Open Policy Agent (OPA), Vault, TLS
+- **Observability:** Prometheus, Grafana
+- **Languages & Tools:** Python, Golang, Java, Bash, SQL (Oracle, PostgreSQL), Git
 
 ## 🎓 Certifications
 
@@ -85,9 +85,9 @@ lang: en
 
 ## ♟️ Personal interests
 
-- **Chess** (1100 ELO, Intermediate player): Pattern recognition and decision-making under pressure.
-- **Reading** (Detective & Sci-Fi novels): Complex investigations and speculative architectures.
-- **Strategy games & Escape rooms** (~15 rooms): Resource optimization and team collaboration.
+- **Chess** (1100 ELO, Intermediate player): Pattern recognition and decision-making under pressure
+- **Reading** (Detective & Sci-Fi novels): Complex investigations and speculative architectures
+- **Strategy games & Escape rooms** (~15 rooms): Resource optimization and team collaboration
 
 </div>
 </div>
