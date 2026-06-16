@@ -51,7 +51,7 @@ Ma double compétence me permet de lier ingénierie logicielle robuste et orches
 
 ## 🎓 Education
 
-### Diplôme d'Ingénieur en Technologie de l'Information en spéc. Systèmes d'Information**
+### Diplôme d'Ingénieur en Technologie de l'Information en spéc. Systèmes d'Information
 *École Supérieure d'Ingénieurs de Rennes (ESIR), 2017*
 
 </div>
