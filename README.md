@@ -13,6 +13,8 @@ my-cv/
 ├── .github/
 │   └── workflows/        # CI/CD pipelines (GitHub Actions)
 └── docs/                 # GitHub Pages source
+    ├── _config.yml       # Jekyll site configuration
+    ├── Gemfile           # Ruby dependencies
     ├── index.html        # English version
     ├── index-fr.html     # French version
     ├── style.css         # Custom stylesheet
